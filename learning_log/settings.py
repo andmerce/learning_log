@@ -24,8 +24,9 @@ SECRET_KEY = '*n!v^d*0))3owmxvdncvnq^s)e-@vk_%&udq_@w)qb0yb(+b92'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+# localhost for the windows machine, 10.0.0.11 for the linux
+#allow accessing from server at 10.0.0.11 and from home machine
+ALLOWED_HOSTS = ['localhost', '10.0.0.11']
 
 
 # Application definition
